@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Deploying Versions | Directus Docs</title>
+    <meta name="description" content="The All-New Directus 7. Future-Proof Headless CMS for Managing Custom Database Content.">
+    <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="apple-touch-icon" type="image/x-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <meta name="application-name" content="Directus Docs">
+  <meta name="theme-color" content="#263238">
+  <meta name="apple-mobile-web-app-title" content="Directus Docs">
+  <meta name="msapplication-TileColor" content="#263238">
+  <meta name="msapplication-config" content="/browserconfig.xml">
+    
+    <link rel="preload" href="/assets/css/0.styles.a46ba43a.css" as="style"><link rel="preload" href="/assets/js/app.9ae0564c.js" as="script"><link rel="preload" href="/assets/js/3.b9cd2d52.js" as="script"><link rel="preload" href="/assets/js/2.9e9b8af7.js" as="script"><link rel="preload" href="/assets/js/33.563f64f2.js" as="script"><link rel="prefetch" href="/assets/js/10.d62f6237.js"><link rel="prefetch" href="/assets/js/11.7bdd3896.js"><link rel="prefetch" href="/assets/js/12.024e3c23.js"><link rel="prefetch" href="/assets/js/13.1173d517.js"><link rel="prefetch" href="/assets/js/14.4119707e.js"><link rel="prefetch" href="/assets/js/15.73113538.js"><link rel="prefetch" href="/assets/js/16.8a7783dc.js"><link rel="prefetch" href="/assets/js/17.a9abfefd.js"><link rel="prefetch" href="/assets/js/18.b5796f71.js"><link rel="prefetch" href="/assets/js/19.4166ed1a.js"><link rel="prefetch" href="/assets/js/20.99efd7ed.js"><link rel="prefetch" href="/assets/js/21.06f151af.js"><link rel="prefetch" href="/assets/js/22.d1a1bc95.js"><link rel="prefetch" href="/assets/js/23.1db8bb27.js"><link rel="prefetch" href="/assets/js/24.02edd2a3.js"><link rel="prefetch" href="/assets/js/25.bd0c52b6.js"><link rel="prefetch" href="/assets/js/26.aee11d87.js"><link rel="prefetch" href="/assets/js/27.227f2143.js"><link rel="prefetch" href="/assets/js/28.89758b05.js"><link rel="prefetch" href="/assets/js/29.238390de.js"><link rel="prefetch" href="/assets/js/30.0e3b2497.js"><link rel="prefetch" href="/assets/js/31.ecd4ba99.js"><link rel="prefetch" href="/assets/js/32.c8c02224.js"><link rel="prefetch" href="/assets/js/34.bd56b433.js"><link rel="prefetch" href="/assets/js/35.47eeddd6.js"><link rel="prefetch" href="/assets/js/36.7d5f3362.js"><link rel="prefetch" href="/assets/js/37.a25c8e59.js"><link rel="prefetch" href="/assets/js/38.c97f3822.js"><link rel="prefetch" href="/assets/js/39.619fa634.js"><link rel="prefetch" href="/assets/js/4.3b96b973.js"><link rel="prefetch" href="/assets/js/40.328ca7c1.js"><link rel="prefetch" href="/assets/js/41.969c6509.js"><link rel="prefetch" href="/assets/js/42.4b3e2a2c.js"><link rel="prefetch" href="/assets/js/43.d34731ed.js"><link rel="prefetch" href="/assets/js/44.28409d7a.js"><link rel="prefetch" href="/assets/js/45.7c8bd5bd.js"><link rel="prefetch" href="/assets/js/46.53ad65e2.js"><link rel="prefetch" href="/assets/js/47.d5da23c0.js"><link rel="prefetch" href="/assets/js/48.e13573f9.js"><link rel="prefetch" href="/assets/js/49.f16379f9.js"><link rel="prefetch" href="/assets/js/5.b0650dd4.js"><link rel="prefetch" href="/assets/js/50.8af9d683.js"><link rel="prefetch" href="/assets/js/51.11f628ad.js"><link rel="prefetch" href="/assets/js/52.5690bdf2.js"><link rel="prefetch" href="/assets/js/53.3f843ce9.js"><link rel="prefetch" href="/assets/js/54.9ccaeae4.js"><link rel="prefetch" href="/assets/js/55.c7b5c542.js"><link rel="prefetch" href="/assets/js/56.9c2aaedd.js"><link rel="prefetch" href="/assets/js/57.62863e28.js"><link rel="prefetch" href="/assets/js/58.7887ce24.js"><link rel="prefetch" href="/assets/js/59.be95f017.js"><link rel="prefetch" href="/assets/js/6.9508ca0f.js"><link rel="prefetch" href="/assets/js/60.54e2796b.js"><link rel="prefetch" href="/assets/js/61.c1e62d6d.js"><link rel="prefetch" href="/assets/js/62.5e2f0f9e.js"><link rel="prefetch" href="/assets/js/63.7b57db1c.js"><link rel="prefetch" href="/assets/js/64.be728318.js"><link rel="prefetch" href="/assets/js/65.83aacf6a.js"><link rel="prefetch" href="/assets/js/66.5bf8269a.js"><link rel="prefetch" href="/assets/js/67.4bbc79be.js"><link rel="prefetch" href="/assets/js/68.8fd6d587.js"><link rel="prefetch" href="/assets/js/69.240b650c.js"><link rel="prefetch" href="/assets/js/7.7bb005bf.js"><link rel="prefetch" href="/assets/js/70.3cf0eb67.js"><link rel="prefetch" href="/assets/js/71.18e7a8a0.js"><link rel="prefetch" href="/assets/js/72.5c5487c2.js"><link rel="prefetch" href="/assets/js/8.dd7ad9a6.js"><link rel="prefetch" href="/assets/js/9.39bb89cd.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.a46ba43a.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">Directus Docs</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="https://directus.io" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Website
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div><div class="nav-item"><a href="https://directus.cloud" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Cloud
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div><div class="nav-item"><a href="https://directus.app" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Demo
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <a href="https://github.com/directus/docs" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav></div></header> <div class="sidebar-mask"></div> <div class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="https://directus.io" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Website
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div><div class="nav-item"><a href="https://directus.cloud" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Cloud
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div><div class="nav-item"><a href="https://directus.app" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Demo
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <a href="https://github.com/directus/docs" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav>  <ul class="sidebar-links"><li><div class="sidebar-group first"><p class="sidebar-heading open"><span>🐰 Getting Started</span> <!----></p> <ul class="sidebar-group-items"><li><a href="/getting-started/introduction.html" class="sidebar-link">Introduction</a></li><li><a href="/getting-started/installation.html" class="sidebar-link">Installation</a></li><li><a href="/getting-started/concepts.html" class="sidebar-link">Concepts</a></li><li><a href="/getting-started/contributing.html" class="sidebar-link">Contributing</a></li><li><a href="/getting-started/supporting-directus.html" class="sidebar-link">Supporting Directus</a></li><li><a href="/getting-started/troubleshooting.html" class="sidebar-link">Troubleshooting</a></li></ul></div></li><li><div class="sidebar-group collapsable"><p class="sidebar-heading"><span>📖 Guides</span> <span class="arrow right"></span></p> <!----></div></li><li><div class="sidebar-group collapsable"><p class="sidebar-heading"><span>🚀 API Reference</span> <span class="arrow right"></span></p> <!----></div></li><li><div class="sidebar-group collapsable"><p class="sidebar-heading"><span>⚡️ SDKs</span> <span class="arrow right"></span></p> <!----></div></li><li><div class="sidebar-group collapsable"><p class="sidebar-heading"><span>🦄 Extensions</span> <span class="arrow right"></span></p> <!----></div></li><li><div class="sidebar-group collapsable"><p class="sidebar-heading"><span>🚧 Advanced</span> <span class="arrow right"></span></p> <!----></div></li></ul> </div> <div class="page"> <div class="content default"><h1 id="deploying-versions"><a href="#deploying-versions" aria-hidden="true" class="header-anchor">#</a> Deploying Versions</h1> <blockquote><p>Deploying (building) new versions of Directus is a multifaceted process. The Application and API should be treated as two separate entities, which are only bundled together as the Directus Suite in the final step.</p></blockquote> <p>The output of the deploy process is the full &quot;Directus Suite&quot;, which is located within the combined build (<a href="https://github.com/directus/directus" target="_blank" rel="noopener noreferrer"><code>directus/directus</code><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a>) repository. This codebase is essentially the Directus API (<a href="https://github.com/directus/api" target="_blank" rel="noopener noreferrer"><code>directus/api</code><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a>) with the Directus App (<a href="https://github.com/directus/app" target="_blank" rel="noopener noreferrer"><code>directus/app</code><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a>) included in the <code>/public/admin/</code> directory. All other differences can be referenced in the following deploy steps.</p> <div class="warning custom-block"><p class="custom-block-title">WARNING</p> <p>These steps need to be followed precisely. Any deviation will cause breaking changes.</p></div> <div class="tip custom-block"><p class="custom-block-title">Automated</p> <p>Eventually, we want to automate these steps in some sort of deploy script to make sure the build is the same each time.</p></div> <h2 id="deploying-the-application"><a href="#deploying-the-application" aria-hidden="true" class="header-anchor">#</a> Deploying the Application</h2> <ol><li>Clone the app repo</li></ol> <div class="language-bash extra-class"><pre class="language-bash"><code>$ <span class="token function">git</span> clone git@github.com:directus/app.git
+$ <span class="token function">cd</span> app
+</code></pre></div><ol start="2"><li><p>Bump the version in <code>package.json</code></p></li> <li><p>Install npm dependencies</p></li></ol> <div class="language-bash extra-class"><pre class="language-bash"><code>$ <span class="token function">npm</span> <span class="token function">install</span>
+</code></pre></div><ol start="4"><li>Build the app</li></ol> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token function">npm</span> run build
+</code></pre></div><ol start="5"><li>Clone the build branch of the app</li></ol> <div class="language-bash extra-class"><pre class="language-bash"><code>$ <span class="token function">cd</span> <span class="token punctuation">..</span>/
+$ <span class="token function">git</span> clone -b build git@github.com:directus/app.git app-build
+</code></pre></div><ol start="6"><li><p>Delete everything in <code>app-build</code> except the <code>.git</code> folder</p></li> <li><p>Copy everything from <code>app/dist</code> to <code>app-build</code></p></li></ol> <div class="language-bash extra-class"><pre class="language-bash"><code>$ <span class="token function">cp</span> -r app/dist/. app-build
+</code></pre></div><ol start="8"><li>Delete all .DS_Store files</li></ol> <div class="language-bash extra-class"><pre class="language-bash"><code>$ <span class="token function">cd</span> app-build
+$ <span class="token function">find</span> <span class="token keyword">.</span> -name <span class="token string">'.DS_Store'</span> -type f -delete
+</code></pre></div><ol start="9"><li>Add-commit-push</li></ol> <div class="language-bash extra-class"><pre class="language-bash"><code>$ <span class="token function">git</span> add <span class="token keyword">.</span>
+$ <span class="token function">git</span> commit -m <span class="token string">&quot;&lt;VERSION NUMBER&gt;&quot;</span>
+$ <span class="token function">git</span> push origin build
+</code></pre></div><ol start="10"><li><p>Create release on GH</p></li> <li><p>Delete local repos</p></li></ol> <div class="language-bash extra-class"><pre class="language-bash"><code>$ <span class="token function">cd</span> <span class="token punctuation">..</span>
+$ <span class="token function">rm</span> -rf app
+$ <span class="token function">rm</span> -rf app-build
+</code></pre></div><h2 id="deploying-the-api"><a href="#deploying-the-api" aria-hidden="true" class="header-anchor">#</a> Deploying the API</h2> <ol><li>Clone the api repo</li></ol> <div class="language-bash extra-class"><pre class="language-bash"><code>$ <span class="token function">git</span> clone git@github.com:directus/api.git
+$ <span class="token function">cd</span> api
+</code></pre></div><ol start="2"><li><p>Bump the version in <code>package.json</code> and <code>src/core/Directus/Application/Application.php</code></p></li> <li><p>Install the composer dependencies</p></li></ol> <div class="language-bash extra-class"><pre class="language-bash"><code>$ composer <span class="token function">install</span> -a
+</code></pre></div><ol start="4"><li>Install and build the system extensions</li></ol> <div class="language-bash extra-class"><pre class="language-bash"><code>$ <span class="token function">cd</span> extensions
+$ <span class="token function">npm</span> <span class="token function">install</span>
+$ <span class="token function">npm</span> run build
+$ <span class="token function">cd</span> <span class="token punctuation">..</span>
+</code></pre></div><ol start="5"><li>Clone the build branch of the api</li></ol> <div class="language-bash extra-class"><pre class="language-bash"><code>$ <span class="token function">cd</span> <span class="token punctuation">..</span>
+$ <span class="token function">git</span> clone -b build git@github.com:directus/api.git api-build
+</code></pre></div><ol start="6"><li><p>Delete everything in <code>api-build</code> except the <code>.git</code> folder and <code>composer.json</code> file</p></li> <li><p>Delete all nested .git folders (prevent submodules)</p></li></ol> <div class="language-bash extra-class"><pre class="language-bash"><code>$ <span class="token function">cd</span> api/vendor
+$ <span class="token punctuation">(</span> <span class="token function">find</span> <span class="token keyword">.</span> -type d -name <span class="token string">&quot;.git&quot;</span> \
+  <span class="token operator">&amp;&amp;</span> <span class="token function">find</span> <span class="token keyword">.</span> -name <span class="token string">&quot;.gitignore&quot;</span> \
+  <span class="token operator">&amp;&amp;</span> <span class="token function">find</span> <span class="token keyword">.</span> -name <span class="token string">&quot;.gitmodules&quot;</span> <span class="token punctuation">)</span> <span class="token operator">|</span> <span class="token function">xargs</span> <span class="token function">rm</span> -rf
+$ <span class="token function">cd</span> <span class="token punctuation">..</span>
+</code></pre></div><ol start="8"><li>Move these files into <code>api-build</code>:</li></ol> <ul><li>bin/</li> <li>config/</li> <li>logs/</li> <li>migrations/</li> <li>public/</li> <li>src/</li> <li>vendor/</li> <li>LICENSE.md</li> <li>README.md</li> <li>composer.json</li></ul> <ol start="9"><li>Delete all .DS_Store files</li></ol> <div class="language-bash extra-class"><pre class="language-bash"><code>$ <span class="token function">cd</span> api-build
+$ <span class="token function">find</span> <span class="token keyword">.</span> -name <span class="token string">'.DS_Store'</span> -type f -delete
+</code></pre></div><ol start="10"><li>Add this .gitignore file:</li></ol> <div class="language- extra-class"><pre class="language-text"><code>Icon
+.DS_Store
+*.log
+.cache
+
+# Ignore dev files
+/.idea
+node_modules
+
+package-lock.json
+
+# Don't track composer phar/vendors
+composer.phar
+composer.lock
+
+# Ignore configuration files
+/config/*
+!/config/migrations.php
+!/config/migrations.upgrades.php
+!/config/api_sample.php
+
+# PHPUnit
+/phpunit.xml
+/documents
+
+# Custom extensions
+/public/extensions/custom/*/*
+
+##  Auth
+/public/extensions/custom/auth
+
+##  Endpoints
+!/public/extensions/custom/endpoints/_directory/
+!/public/extensions/custom/endpoints/_example.php
+
+##  Hashers
+!/public/extensions/custom/hashers/_CustomHasher.php
+
+##  Hooks
+!/public/extensions/custom/hooks/_products
+!/public/extensions/custom/hooks/_webhook
+
+# Storage
+/public/uploads/*/
+!public/uploads/_/originals/.gitignore
+!public/uploads/_/thumbnails/.gitignore
+
+# Keep gitkeep files
+# This will make sure empty directories has at least one file so it can be tracked by git
+!**/.gitkeep
+</code></pre></div><ol start="11"><li>Add-commit-push</li></ol> <div class="language-bash extra-class"><pre class="language-bash"><code>$ <span class="token function">git</span> add <span class="token keyword">.</span>
+$ <span class="token function">git</span> commit -m <span class="token string">&quot;&lt;VERSION NUMBER&gt;&quot;</span>
+$ <span class="token function">git</span> push origin build
+</code></pre></div><ol start="12"><li><p>Create release on GH</p></li> <li><p>Delete local repos</p></li></ol> <div class="language-bash extra-class"><pre class="language-bash"><code>$ <span class="token function">cd</span> <span class="token punctuation">..</span>
+$ <span class="token function">rm</span> -rf api
+$ <span class="token function">rm</span> -rf api-build
+</code></pre></div><h2 id="deploying-the-suite"><a href="#deploying-the-suite" aria-hidden="true" class="header-anchor">#</a> Deploying the Suite</h2> <p><em>AKA The Combined Build</em></p> <ol><li>Clone the directus/directus repo</li></ol> <div class="language-bash extra-class"><pre class="language-bash"><code>$ <span class="token function">git</span> clone git@github.com:directus/directus.git
+</code></pre></div><ol start="2"><li><p>Delete everything in it except the <code>.git</code> and <code>.github</code> folders</p></li> <li><p>Clone the api build</p></li></ol> <div class="language-bash extra-class"><pre class="language-bash"><code>$ <span class="token function">git</span> clone -b build git@github.com:directus/api.git api-build
+</code></pre></div><ol start="4"><li>Remove the <code>.git</code> folder from the <code>api-build</code> folder</li></ol> <div class="language-bash extra-class"><pre class="language-bash"><code>$ <span class="token function">rm</span> -rf api-build/.git
+</code></pre></div><ol start="5"><li>Copy everything in the api-build folder to the main directus/directus repo</li></ol> <div class="language-bash extra-class"><pre class="language-bash"><code>$ <span class="token function">cp</span> -r api-build/* directus
+</code></pre></div><ol start="6"><li>Clone the app build</li></ol> <div class="language-bash extra-class"><pre class="language-bash"><code>$ <span class="token function">git</span> clone -b build git@github.com:directus/app.git app-build
+</code></pre></div><ol start="7"><li>Make the public/admin directory in directus/directus</li></ol> <div class="language-bash extra-class"><pre class="language-bash"><code>$ <span class="token function">mkdir</span> directus/public/admin
+</code></pre></div><ol start="8"><li>Delete the <code>.git</code> folder from the app-build</li></ol> <div class="language-bash extra-class"><pre class="language-bash"><code>$ <span class="token function">rm</span> -rf app-build/.git
+</code></pre></div><ol start="9"><li>Copy everything from app-build to directus/public/admin</li></ol> <div class="language-bash extra-class"><pre class="language-bash"><code>$ <span class="token function">cp</span> -r app-build/* directus/public/admin
+</code></pre></div><ol start="10"><li>Duplicate the <code>directus/public/admin/config_example.js</code> file to <code>directus/public/admin/config.js</code></li></ol> <div class="language-bash extra-class"><pre class="language-bash"><code>$ <span class="token function">cp</span> directus/public/admin/config_example.js directus/public/admin/config.js
+</code></pre></div><ol start="11"><li>Change the <code>directus/public/admin/config.js</code> file to point to the relative API</li></ol> <div class="language-js extra-class"><pre class="language-js"><code>api<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+  <span class="token string">&quot;../_/&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;Directus API&quot;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><ol start="12"><li>Delete all .DS_Store files</li></ol> <div class="language-bash extra-class"><pre class="language-bash"><code>$ <span class="token function">cd</span> directus
+$ <span class="token function">find</span> <span class="token keyword">.</span> -name <span class="token string">'.DS_Store'</span> -type f -delete
+</code></pre></div><ol start="13"><li>Add-commit-push</li></ol> <div class="language-bash extra-class"><pre class="language-bash"><code>$ <span class="token function">git</span> add <span class="token keyword">.</span>
+$ <span class="token function">git</span> commit -m <span class="token string">&quot;&lt;VERSION NUMBER&gt;&quot;</span>
+$ <span class="token function">git</span> push origin master
+</code></pre></div><ol start="14"><li><p>Create release on GH</p></li> <li><p>Delete local repos</p></li></ol> <div class="language-bash extra-class"><pre class="language-bash"><code>$ <span class="token function">cd</span> <span class="token punctuation">..</span>
+$ <span class="token function">rm</span> -rf directus
+$ <span class="token function">rm</span> -rf api-build
+$ <span class="token function">rm</span> -rf app-build
+</code></pre></div><h2 id="tagging-docs-releases"><a href="#tagging-docs-releases" aria-hidden="true" class="header-anchor">#</a> Tagging Docs Releases</h2> <p>When releasing a new major or minor version (not a patch) we should also create a git release tag on <code>directus/docs</code>. This will ensure that users of previous versions can go back and look at the specific docs from that version.</p> <p>It's also important to <em>flag</em> each new feature in the Docs with a version number (eg: <code>7.1+</code>) so that users can tell when a new feature was made available.</p></div> <!----> <!----> </div></div><div class="global-ui"></div></div>
+    <script src="/assets/js/3.b9cd2d52.js" defer></script><script src="/assets/js/2.9e9b8af7.js" defer></script><script src="/assets/js/33.563f64f2.js" defer></script><script src="/assets/js/app.9ae0564c.js" defer></script>
+  </body>
+</html>
